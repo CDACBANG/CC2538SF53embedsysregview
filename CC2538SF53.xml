@@ -68,6 +68,18 @@ Few External Components
 Only a Single Crystal Needed for Asynchronous Networks
 
 </chip_description> 
+
+<group name="FLASH_CTRL" description="FLASH_CTRL registers"> 
+    <registergroup name="FLASH_CTRL" description=""> 
+	<register name="FLASH_CTRL_FCTL" description="" address="0x400D3008" access="rw" />	
+	<register name="FLASH_CTRL_FADDR" description="" address="0x400D300C" access="rw" />	
+	<register name="FLASH_CTRL_FWDATA" description="" address="0x400D3010" access="rw" />	
+	<register name="FLASH_CTRL_DIECFG0" description="" address="0x400D3014" access="ro" />	
+	<register name="FLASH_CTRL_DIECFG1" description="" address="0x400D3018" access="r" />	
+	<register name="FLASH_CTRL_DIECFG2" description="" address="0x400D301C" access="ro" />	
+	</registergroup> 
+	</group>
+	
   <group name="GPIO" description="GPIO registers"> 
     <registergroup name="PORTA" description=""> 
       <register name="GPIO_PORTA_DATA_R" description="This is the data register. In software control mode, values written in
