@@ -3,11 +3,10 @@
  
 <model chipname="CC2538SF53"> 
   <chip_description>
-Developed By R. BalaSubramanyam <balasubramanyam@cdac.in>
-								<rangineni.balu@gmail.com>
-	for CC2538SF53 chip 							
+Developed By R. BalaSubramanyam "balasubramanyam@cdac.in"
+								"rangineni.balu@gmail.com" 	for CC2538SF53 chip 							
 								
-CPU                               ARM Cortex M3 
+CPU  ARM Cortex M3 
 Features
 Microcontroller
 Powerful ARM® Cortex®-M3 With Code Prefetch
@@ -841,7 +840,7 @@ default." address="0x400DC400" access="rw" />
 	<register name="RFCORE_XREG_RFC_OBS_CTRL2" description="" address="0x400887B4" access="rw" /> 
 	<register name="RFCORE_XREG_TXFILTCFG" description="" address="0x400887E8" access="rw" /> 
 	</registergroup>
-	</group>
+	
 	
 	<registergroup name="RFCORE_SFR" description=""> 
 	<register name="RFCORE_SFR_RFDATA" description="" address="0x40088828" access="rw" /> 
@@ -850,7 +849,7 @@ default." address="0x400DC400" access="rw" />
 	<register name="RFCORE_SFR_RFIRQF0" description="" address="0x40088834" access="rw" /> 
 	<register name="RFCORE_SFR_RFST" description="" address="0x40088838" access="rw" /> 
 	</registergroup>
-	</group>
+	
 	
 	<registergroup name="CCTEST" description=""> 
 	<register name="CCTEST_IO" description="" address="0x44010000" access="rw" /> 
@@ -867,6 +866,7 @@ default." address="0x400DC400" access="rw" />
 	</registergroup>
 	</group>
 	
+	<group name="ANA" description="ANA Registers">
 	<registergroup name="ANA_REGS" description=""> 
 	<register name="ANA_REGS_IVCTRL" description="" address="0x400D6004" access="rw" />
 	</registergroup>
