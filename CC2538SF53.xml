@@ -700,4 +700,35 @@ default." address="0x400DC400" access="rw" />
 	</registergroup>
 	</group>
 	
+	<group name="RFCORE" description="RFCORE Registers">
+	<registergroup name="RFCORE_FFSM" description=""> 
+	<register name="RFCORE_FFSM_SRCRESMASK0" description="" address="0x40088580" access="rw" /> 
+	<register name="RFCORE_FFSM_SRCRESMASK1" description="" address="0x40088584" access="rw" /> 
+	<register name="RFCORE_FFSM_SRCRESMASK2" description="" address="0x40088588" access="rw" /> 
+	<register name="RFCORE_FFSM_SRCRESINDEX" description="" address="0x4008858C" access="rw" /> 
+	<register name="RFCORE_FFSM_SRCEXTPENDEN0" description="" address="0x40088590" access="rw" /> 
+	<register name="RFCORE_FFSM_SRCEXTPENDEN1" description="" address="0x40088594" access="rw" /> 
+	<register name="RFCORE_FFSM_SRCEXTPENDEN2" description="" address="0x40088598" access="rw" /> 
+	<register name="RFCORE_FFSM_SRCSHORTPENDEN0" description="" address="0x4008859C" access="rw" /> 
+	<register name="RCSHORTPENDENRCSHORTPENDEN1" description="" address="0x400885A0" access="rw" /> 
+	<register name="RCSHORTPENDENRCSHORTPENDEN2" description="" address="0x400885A4" access="rw" /> 
+	<register name="RFCORE_FFSM_EXT_ADDR0" description="" address="0x400885A8" access="rw" /> 
+	<register name="RFCORE_FFSM_EXT_ADDR1" description="" address="0x400885AC" access="rw" /> 
+	<register name="RFCORE_FFSM_EXT_ADDR2" description="" address="0x400885B0" access="rw" /> 
+	<register name="RFCORE_FFSM_EXT_ADDR3" description="" address="0x400885B4" access="rw" /> 
+	<register name="RFCORE_FFSM_EXT_ADDR4" description="" address="0x400885B8" access="rw" /> 
+	<register name="RFCORE_FFSM_EXT_ADDR5" description="" address="0x400885BC" access="rw" /> 
+	<register name="RFCORE_FFSM_EXT_ADDR6" description="" address="0x400885C0" access="rw" /> 
+	<register name="RFCORE_FFSM_EXT_ADDR7" description="" address="0x400885C4" access="rw" /> 
+	<register name="RFCORE_FFSM_PANID0" description="" address="0x400885C8" access="rw" /> 
+	<register name="RFCORE_FFSM_PANID1" description="" address="0x400885CC" access="rw" /> 
+	<register name="RFCORE_FFSM_SHORT_ADDR0" description="" address="0x400885D0" access="rw" /> 	
+	<register name="RFCORE_FFSM_SHORT_ADDR1" description="" address="0x400885D4" access="rw" /> 	
+	</registergroup>
+	
+	<registergroup name="RFCORE_XREG" description=""> 
+	<register name="RFCORE_XREG_FRMFILT0" description="" address="0x40088600" access="rw" /> 
+	</registergroup>
+	</group>
+	
 </model>
