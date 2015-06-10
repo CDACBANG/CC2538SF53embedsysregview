@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <!DOCTYPE model SYSTEM "../../embsysregview.dtd"> 
  
-<model chipname="CC2538"> 
-  <chip_description>CPU                               ARM Cortex M3 
+<model chipname="CC2538SF53"> 
+  <chip_description>
+Developed By R. BalaSubramanyam <balasubramanyam@cdac.in>
+								<rangineni.balu@gmail.com>
+	for CC2538SF53 chip 							
+								
+CPU                               ARM Cortex M3 
 Features
 Microcontroller
 Powerful ARM® Cortex®-M3 With Code Prefetch
@@ -728,7 +733,130 @@ default." address="0x400DC400" access="rw" />
 	
 	<registergroup name="RFCORE_XREG" description=""> 
 	<register name="RFCORE_XREG_FRMFILT0" description="" address="0x40088600" access="rw" /> 
+	<register name="RFCORE_XREG_FRMFILT1" description="" address="0x40088604" access="rw" /> 
+	<register name="RFCORE_XREG_SRCMATCH" description="" address="0x40088608" access="rw" /> 
+	<register name="RFCORE_XREG_SRCSHORTEN0" description="" address="0x4008860C" access="rw" /> 
+	<register name="RFCORE_XREG_SRCSHORTEN1" description="" address="0x40088610" access="rw" /> 
+	<register name="RFCORE_XREG_SRCSHORTEN2" description="" address="0x40088614" access="rw" /> 
+	<register name="RFCORE_XREG_SRCEXTEN0" description="" address="0x40088618" access="rw" /> 
+	<register name="RFCORE_XREG_SRCEXTEN1" description="" address="0x4008861C" access="rw" /> 
+	<register name="RFCORE_XREG_SRCEXTEN2" description="" address="0x40088620" access="rw" /> 
+	<register name="RFCORE_XREG_FRMCTRL0" description="" address="0x40088624" access="rw" /> 
+	<register name="RFCORE_XREG_FRMCTRL1" description="" address="0x40088628" access="rw" /> 
+	<register name="RFCORE_XREG_RXENABLE" description="" address="0x4008862C" access="ro" /> 
+	<register name="RFCORE_XREG_RXMASKSET" description="" address="0x40088630" access="rw" /> 
+	<register name="RFCORE_XREG_RXMASKCLR" description="" address="0x40088634" access="rw" /> 
+	<register name="RFCORE_XREG_FREQTUNE" description="" address="0x40088638" access="rw" /> 
+	<register name="RFCORE_XREG_FREQCTRL" description="" address="0x4008863C" access="rw" /> 
+	<register name="RFCORE_XREG_TXPOWER" description="" address="0x40088640" access="rw" /> 
+	<register name="RFCORE_XREG_TXCTRL" description="" address="0x40088644" access="rw" /> 
+	<register name="RFCORE_XREG_FSMSTAT0" description="" address="0x40088648" access="ro" /> 
+	<register name="RFCORE_XREG_FSMSTAT1" description="" address="0x4008864C" access="ro" /> 
+	<register name="RFCORE_XREG_FIFOPCTRL" description="" address="0x40088650" access="rw" /> 
+	<register name="RFCORE_XREG_FSMCTRL" description="" address="0x40088654" access="rw" /> 
+	<register name="RFCORE_XREG_CCACTRL0" description="" address="0x40088658" access="rw" /> 
+	<register name="RFCORE_XREG_CCACTRL1" description="" address="0x4008865C" access="rw" /> 
+	<register name="RFCORE_XREG_RSSI" description="" address="0x40088660" access="ro" /> 
+	<register name="RFCORE_XREG_RSSISTAT" description="" address="0x40088664" access="ro" /> 
+	<register name="RFCORE_XREG_RXFIRST" description="" address="0x40088668" access="ro" /> 
+	<register name="RFCORE_XREG_RXFIFOCNT" description="" address="0x4008866C" access="ro" /> 
+	<register name="RFCORE_XREG_TXFIFOCNT" description="" address="0x40088670" access="ro" /> 
+	<register name="RFCORE_XREG_RXFIRST_PTR" description="" address="0x40088674" access="ro" /> 
+	<register name="RFCORE_XREG_RXLAST_PTR" description="" address="0x40088678" access="ro" /> 
+	<register name="RFCORE_XREG_RXP1_PTR" description="" address="0x4008867C" access="ro" /> 
+	<register name="RFCORE_XREG_TXFIRST_PTR" description="" address="0x40088684" access="ro" /> 
+	<register name="RFCORE_XREG_TXLAST_PTR" description="" address="0x40088688" access="ro" /> 
+	<register name="RFCORE_XREG_RFIRQM0" description="" address="0x4008868C" access="rw" /> 
+	<register name="RFCORE_XREG_RFIRQM1" description="" address="0x40088690" access="rw" /> 
+	<register name="RFCORE_XREG_RFERRM" description="" address="0x40088694" access="rw" /> 
+	<register name="RFCORE_XREG_RFRND" description="" address="0x4008869C" access="ro" /> 
+	<register name="RFCORE_XREG_MDMCTRL0" description="" address="0x400886A0" access="rw" /> 
+	<register name="RFCORE_XREG_MDMCTRL1" description="" address="0x400886A4" access="rw" /> 
+	<register name="RFCORE_XREG_FREQEST" description="" address="0x400886A8" access="ro" /> 
+	<register name="RFCORE_XREG_RXCTRL" description="" address="0x400886AC" access="rw" /> 
+	<register name="RFCORE_XREG_FSCTRL" description="" address="0x400886B0" access="rw" /> 
+	<register name="RFCORE_XREG_FSCAL0" description="" address="0x400886B4" access="rw" /> 
+	<register name="RFCORE_XREG_FSCAL1" description="" address="0x400886B8" access="rw" /> 
+	<register name="RFCORE_XREG_FSCAL2" description="" address="0x400886BC" access="rw" /> 
+	<register name="RFCORE_XREG_FSCAL3" description="" address="0x400886C0" access="rw" /> 
+	<register name="RFCORE_XREG_AGCCTRL0" description="" address="0x400886C4" access="rw" /> 
+	<register name="RFCORE_XREG_AGCCTRL1" description="" address="0x400886C8" access="rw" /> 
+	<register name="RFCORE_XREG_AGCCTRL2" description="" address="0x400886CC" access="rw" /> 
+	<register name="RFCORE_XREG_AGCCTRL3" description="" address="0x400886D0" access="rw" /> 
+	<register name="RFCORE_XREG_ADCTEST0" description="" address="0x400886D4" access="rw" /> 
+	<register name="RFCORE_XREG_ADCTEST1" description="" address="0x400886D8" access="rw" /> 
+	<register name="RFCORE_XREG_ADCTEST2" description="" address="0x400886DC" access="rw" /> 
+	<register name="RFCORE_XREG_MDMTEST0" description="" address="0x400886E0" access="rw" /> 
+	<register name="RFCORE_XREG_MDMTEST1" description="" address="0x400886E4" access="rw" /> 
+	<register name="RFCORE_XREG_DACTEST0" description="" address="0x400886E8" access="rw" /> 
+	<register name="RFCORE_XREG_DACTEST1" description="" address="0x400886EC" access="rw" /> 
+	<register name="RFCORE_XREG_DACTEST2" description="" address="0x400886F0" access="rw" /> 
+	<register name="RFCORE_XREG_ATEST" description="" address="0x400886F4" access="rw" /> 
+	<register name="RFCORE_XREG_PTEST0" description="" address="0x400886F8" access="rw" /> 
+	<register name="RFCORE_XREG_PTEST1" description="" address="0x400886FC" access="rw" /> 
+	<register name="RFCORE_XREG_CSPPROG__0" description="" address="0x40088700" access="ro" /> 
+	<register name="RFCORE_XREG_CSPPROG__1" description="" address="0x40088704" access="ro" /> 
+	<register name="RFCORE_XREG_CSPPROG__2" description="" address="0x40088708" access="ro" /> 
+	<register name="RFCORE_XREG_CSPPROG__3" description="" address="0x4008870C" access="ro" /> 
+	<register name="RFCORE_XREG_CSPPROG__4" description="" address="0x40088710" access="ro" /> 
+	<register name="RFCORE_XREG_CSPPROG__5" description="" address="0x40088714" access="ro" /> 
+	<register name="RFCORE_XREG_CSPPROG__6" description="" address="0x40088718" access="ro" /> 
+	<register name="RFCORE_XREG_CSPPROG__7" description="" address="0x4008871C" access="ro" /> 
+	<register name="RFCORE_XREG_CSPPROG__8" description="" address="0x40088720" access="ro" /> 
+	<register name="RFCORE_XREG_CSPPROG__9" description="" address="0x40088724" access="ro" /> 
+	<register name="RFCORE_XREG_CSPPROG__10" description="" address="0x40088728" access="ro" /> 
+	<register name="RFCORE_XREG_CSPPROG__11" description="" address="0x4008872C" access="ro" /> 
+	<register name="RFCORE_XREG_CSPPROG__12" description="" address="0x40088730" access="ro" /> 
+	<register name="RFCORE_XREG_CSPPROG__13" description="" address="0x40088734" access="ro" /> 
+	<register name="RFCORE_XREG_CSPPROG__14" description="" address="0x40088738" access="ro" /> 
+	<register name="RFCORE_XREG_CSPPROG__15" description="" address="0x4008873C" access="ro" /> 
+	<register name="RFCORE_XREG_CSPPROG__16" description="" address="0x40088740" access="ro" /> 
+	<register name="RFCORE_XREG_CSPPROG__17" description="" address="0x40088744" access="ro" /> 
+	<register name="RFCORE_XREG_CSPPROG__18" description="" address="0x40088748" access="ro" /> 
+	<register name="RFCORE_XREG_CSPPROG__19" description="" address="0x4008874C" access="ro" /> 
+	<register name="RFCORE_XREG_CSPPROG__20" description="" address="0x40088750" access="ro" /> 
+	<register name="RFCORE_XREG_CSPPROG__21" description="" address="0x40088754" access="ro" /> 
+	<register name="RFCORE_XREG_CSPPROG__22" description="" address="0x40088758" access="ro" /> 
+	<register name="RFCORE_XREG_CSPPROG__23" description="" address="0x4008875C" access="ro" /> 
+	<register name="RFCORE_XREG_CSPCTRL" description="" address="0x40088780" access="rw" /> 
+	<register name="RFCORE_XREG_CSPSTAT" description="" address="0x40088784" access="ro" /> 
+	<register name="RFCORE_XREG_CSPX" description="" address="0x40088788" access="ro" /> 
+	<register name="RFCORE_XREG_CSPY" description="" address="0x4008878C" access="ro" /> 
+	<register name="RFCORE_XREG_CSPZ" description="" address="0x40088790" access="ro" /> 
+	<register name="RFCORE_XREG_CSPT" description="" address="0x40088794" access="ro" /> 
+	<register name="RFCORE_XREG_RFC_OBS_CTRL0" description="" address="0x400887AC" access="rw" /> 
+	<register name="RFCORE_XREG_RFC_OBS_CTRL1" description="" address="0x400887B0" access="rw" /> 
+	<register name="RFCORE_XREG_RFC_OBS_CTRL2" description="" address="0x400887B4" access="rw" /> 
+	<register name="RFCORE_XREG_TXFILTCFG" description="" address="0x400887E8" access="rw" /> 
 	</registergroup>
 	</group>
 	
+	<registergroup name="RFCORE_SFR" description=""> 
+	<register name="RFCORE_SFR_RFDATA" description="" address="0x40088828" access="rw" /> 
+	<register name="RFCORE_SFR_RFERRF" description="" address="0x4008882C" access="rw" /> 
+	<register name="RFCORE_SFR_RFIRQF1" description="" address="0x40088830" access="rw" /> 
+	<register name="RFCORE_SFR_RFIRQF0" description="" address="0x40088834" access="rw" /> 
+	<register name="RFCORE_SFR_RFST" description="" address="0x40088838" access="rw" /> 
+	</registergroup>
+	</group>
+	
+	<registergroup name="CCTEST" description=""> 
+	<register name="CCTEST_IO" description="" address="0x44010000" access="rw" /> 
+	<register name="CCTEST_OBSSEL0" description="" address="0x44010014" access="rw" /> 
+	<register name="CCTEST_OBSSEL1" description="" address="0x44010018" access="rw" /> 
+	<register name="CCTEST_OBSSEL2" description="" address="0x4401001C" access="rw" /> 
+	<register name="CCTEST_OBSSEL3" description="" address="0x44010020" access="rw" /> 
+	<register name="CCTEST_OBSSEL4" description="" address="0x44010024" access="rw" /> 
+	<register name="CCTEST_OBSSEL5" description="" address="0x44010028" access="rw" /> 
+	<register name="CCTEST_OBSSEL6" description="" address="0x4401002C" access="rw" /> 
+	<register name="CCTEST_OBSSEL7" description="" address="0x44010030" access="rw" /> 
+	<register name="CCTEST_TR0" description="" address="0x44010034" access="rw" /> 
+	<register name="CCTEST_USBCTRL" description="" address="0x44010050" access="rw" /> 	
+	</registergroup>
+	</group>
+	
+	<registergroup name="ANA_REGS" description=""> 
+	<register name="ANA_REGS_IVCTRL" description="" address="0x400D6004" access="rw" />
+	</registergroup>
+	</group>
 </model>
