@@ -4,7 +4,8 @@
 <model chipname="CC2538SF53"> 
   <chip_description>
 Developed By R. BalaSubramanyam "balasubramanyam@cdac.in"
-								"rangineni.balu@gmail.com" 	for CC2538SF53 chip 							
+				"rangineni.balu@gmail.com" 	
+for CC2538SF53 SoC 							
 								
 CPU  ARM Cortex M3 
 Features
